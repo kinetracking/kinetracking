@@ -3,39 +3,125 @@
 <head>
   <title>KineTracking</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #0d0d0d;
-      color: white;
-      text-align: center;
-    }
-    .container {
-      padding: 40px 20px;
-    }
-    h1 {
-      color: #ff2c2c;
-      font-size: 36px;
-    }
-    h2 {
-      color: #ffffff;
-      margin-top: 40px;
-    }
-    p {
-      max-width: 700px;
-      margin: auto;
+      background: #0b0b0d;
+      color: #f5f5f5;
       line-height: 1.6;
     }
+
+    .container {
+      max-width: 980px;
+      margin: auto;
+      padding: 48px 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 42px 22px;
+      background: linear-gradient(135deg, #111 0%, #1d1d21 55%, #2b0808 100%);
+      border: 1px solid #303034;
+      border-radius: 18px;
+      box-shadow: 0 14px 36px rgba(0,0,0,0.35);
+    }
+
+    h1 {
+      color: #ff2c2c;
+      font-size: 46px;
+      margin: 0 0 8px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #ffffff;
+      margin-top: 42px;
+      border-left: 4px solid #ff2c2c;
+      padding-left: 12px;
+    }
+
+    h3, h4 {
+      color: #ff4a4a;
+      margin-top: 28px;
+    }
+
+    p {
+      max-width: 850px;
+      margin: 12px auto;
+    }
+
     ul {
-      list-style: none;
-      padding: 0;
+      max-width: 850px;
+      margin: 14px auto;
+      padding-left: 22px;
     }
+
     li {
-      margin: 10px 0;
+      margin: 8px 0;
     }
+
+    a {
+      color: #ff5a5a;
+    }
+
     .section {
-      margin-top: 50px;
+      margin-top: 46px;
+      background: #151518;
+      border: 1px solid #2a2a2e;
+      border-radius: 14px;
+      padding: 28px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.28);
+    }
+
+    .features {
+      padding-left: 0;
+    }
+
+    .features li {
+      background: #1f1f23;
+      border: 1px solid #303034;
+      border-radius: 10px;
+      padding: 12px 14px;
+      list-style: none;
+    }
+
+    .privacy-policy {
+      text-align: left;
+    }
+
+    .privacy-policy h1 {
+      text-align: left;
+      font-size: 34px;
+    }
+
+    .privacy-policy h2 {
+      font-size: 24px;
+    }
+
+    .privacy-policy p,
+    .privacy-policy ul {
+      max-width: 100%;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 28px 14px;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+
+      .section {
+        padding: 20px;
+        border-radius: 12px;
+      }
     }
   </style>
 </head>
@@ -43,223 +129,223 @@
 <body>
   <div class="container">
 
-    <h1>KineTracking</h1>
-    <p>Velocity-Based Training & Athlete Performance Tracking</p>
+    <div class="hero">
+      <h1>KineTracking</h1>
+      <p>Velocity-Based Training, Kine Gate Timing, and Kine Posture Analysis</p>
+    </div>
 
     <div class="section">
       <h2>About</h2>
       <p>
-        KineTracking is a performance tracking app designed for athletes and coaches.
-        It measures movement velocity and helps analyze training sessions to improve performance.
+        KineTracking is a performance tracking app designed for athletes, coaches, and fitness users.
+        It supports movement velocity tracking, timing gate sessions, posture analysis, video analysis,
+        and training review to help users understand and improve performance.
       </p>
     </div>
 
     <div class="section">
       <h2>Features</h2>
-      <ul>
-        <li>• Velocity-based movement tracking</li>
-        <li>• Athlete performance monitoring</li>
-        <li>• Real-time analysis</li>
-        <li>• Simple and intuitive interface</li>
+      <ul class="features">
+        <li>Velocity-based movement tracking</li>
+        <li>Athlete performance monitoring</li>
+        <li>Kine Gate timing and device connection</li>
+        <li>Kine Posture video and live analysis</li>
+        <li>Real-time analysis</li>
+        <li>Video export and local result review</li>
+        <li>Simple and intuitive interface</li>
       </ul>
     </div>
 
-    <div class="section">
+    <div class="section privacy-policy">
       <h2>Privacy Policy</h2>
+
+      <h1>Privacy Policy</h1>
+      <p>Last updated: May 17, 2026</p>
+
       <p>
-        <h1>Privacy Policy</h1>
-<p>Last updated: March 17, 2026</p>
-<p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
-<p>We use Your Personal Data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the <a href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">TermsFeed Privacy Policy Generator</a>.</p>
-<h2>Interpretation and Definitions</h2>
-<h3>Interpretation</h3>
-<p>The words whose initial letters are capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p>
-<h3>Definitions</h3>
-<p>For the purposes of this Privacy Policy:</p>
-<ul>
-<li>
-<p><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</p>
-</li>
-<li>
-<p><strong>Affiliate</strong> means an entity that controls, is controlled by, or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</p>
-</li>
-<li>
-<p><strong>Application</strong> refers to KineTracking, the software program provided by the Company.</p>
-</li>
-<li>
-<p><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Privacy Policy) refers to Kine Tracking.</p>
-</li>
-<li>
-<p><strong>Country</strong> refers to: Chhattisgarh,  India</p>
-</li>
-<li>
-<p><strong>Device</strong> means any device that can access the Service such as a computer, a cell phone or a digital tablet.</p>
-</li>
-<li>
-<p><strong>Personal Data</strong> (or &quot;Personal Information&quot;) is any information that relates to an identified or identifiable individual.</p>
-<p>We use &quot;Personal Data&quot; and &quot;Personal Information&quot; interchangeably unless a law uses a specific term.</p>
-</li>
-<li>
-<p><strong>Service</strong> refers to the Application.</p>
-</li>
-<li>
-<p><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</p>
-</li>
-<li>
-<p><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</p>
-</li>
-<li>
-<p><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</p>
-</li>
-</ul>
-<h2>Collecting and Using Your Personal Data</h2>
-<h3>Types of Data Collected</h3>
-<h4>Personal Data</h4>
-<p>While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p>
-<h4>Usage Data</h4>
-<p>Usage Data is collected automatically when using the Service.</p>
-<p>Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-<p>When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device's unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.</p>
-<p>We may also collect information that Your browser sends whenever You visit Our Service or when You access the Service by or through a mobile device.</p>
-<h4>Information Collected while Using the Application</h4>
-<p>While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:</p>
-<ul>
-  <h4>Video Import and Processing</h4>
-<p>Our Application allows Users to import videos from their Device for athlete performance analysis.</p>
-<ul>
-<li>Videos are accessed only when the User chooses to import them.</li>
-<li>Imported videos are processed locally on the User's Device for movement and performance analysis.</li>
-<li>We do not automatically upload imported videos to Our servers.</li>
-<li>We do not share imported videos with third parties.</li>
-<li>Any exported videos, screenshots, or analysis results are stored only on the User's Device unless the User chooses to share them.</li>
-</ul>
-<li>Pictures and other information from your Device's camera and photo library</li>
-</ul>
-<p>
-We use the device camera only for movement tracking and performance analysis. 
-We do not store, record, or share your images or videos outside the app.
-</p>
-<p>We use this information to provide features of Our Service, to improve and customize Our Service. The information collected from the camera, photo library, and imported videos is generally processed and stored locally on Your Device. We do not upload this information to the Company's servers unless explicitly stated for a specific feature.</p>
-<p>You can enable or disable access to this information at any time, through Your Device settings.</p>
-<h3>Use of Your Personal Data</h3>
-<p>The Company may use Personal Data for the following purposes:</p>
-<ul>
-<li>
-<p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p>
-</li>
-<li>
-<p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</p>
-</li>
-<li>
-<p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</p>
-</li>
-<li>
-<p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.</p>
-</li>
-<li>
-<p><strong>To provide You</strong> with news, special offers, and general information about other goods, services and events which We offer that are similar to those that you have already purchased or inquired about unless You have opted not to receive such information.</p>
-</li>
-<li>
-<p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p>
-</li>
-<li>
-<p><strong>For business transfers:</strong> We may use Your Personal Data to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.</p>
-</li>
-<li>
-<p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.</p>
-</li>
-</ul>
-<p>We may share Your Personal Data in the following situations:</p>
-<ul>
-<li><strong>With Service Providers:</strong> We may share Your Personal Data with Service Providers to monitor and analyze the use of our Service,  to contact You.</li>
-<li><strong>For business transfers:</strong> We may share or transfer Your Personal Data in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.</li>
-<li><strong>With Affiliates:</strong> We may share Your Personal Data with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.</li>
-<li><strong>With business partners:</strong> We may share Your Personal Data with Our business partners to offer You certain products, services or promotions.</li>
-<li><strong>With other users:</strong> If Our Service offers public areas, when You share Personal Data or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.</li>
-<li><strong>With Your consent</strong>: We may disclose Your Personal Data for any other purpose with Your consent.</li>
-</ul>
-<h3>Retention of Your Personal Data</h3>
-<p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if We are required to retain Your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p>
-<p>Where possible, We apply shorter retention periods and/or reduce identifiability by deleting, aggregating, or anonymizing data. Unless otherwise stated, the retention periods below are maximum periods (&quot;up to&quot;) and We may delete or anonymize data sooner when it is no longer needed for the relevant purpose. We apply different retention periods to different categories of Personal Data based on the purpose of processing and legal obligations:</p>
-<ul>
-<li>
-<p>Account Information</p>
-<ul>
-<li>User Accounts: retained for the duration of your account relationship plus up to 24 months after account closure to handle any post-termination issues or resolve disputes.</li>
-</ul>
-</li>
-<li>
-<p>Usage Data</p>
-<ul>
-<li>
-<p>Application usage statistics: up to 24 months to understand feature adoption and service improvements.</p>
-</li>
-<li>
-<p>Server logs (IP addresses, access times): up to 24 months for security monitoring and troubleshooting purposes.</p>
-</li>
-</ul>
-</li>
-</ul>
-<p>Usage Data is retained in accordance with the retention periods described above, and may be retained longer only where necessary for security, fraud prevention, or legal compliance.</p>
-<p>We may retain Personal Data beyond the periods stated above for different reasons:</p>
-<ul>
-<li>Legal obligation: We are required by law to retain specific data (e.g., financial records for tax authorities).</li>
-<li>Legal claims: Data is necessary to establish, exercise, or defend legal claims.</li>
-<li>Your explicit request: You ask Us to retain specific information.</li>
-<li>Technical limitations: Data exists in backup systems that are scheduled for routine deletion.</li>
-</ul>
-<p>You may request information about how long We will retain Your Personal Data by contacting Us.</p>
-<p>When retention periods expire, We securely delete or anonymize Personal Data according to the following procedures:</p>
-<ul>
-<li>Deletion: Personal Data is removed from Our systems and no longer actively processed.</li>
-<li>Backup retention: Residual copies may remain in encrypted backups for a limited period consistent with our backup retention schedule and are not restored except where necessary for security, disaster recovery, or legal compliance.</li>
-<li>Anonymization: In some cases, We convert Personal Data into anonymous statistical data that cannot be linked back to You. This anonymized data may be retained indefinitely for research and analytics.</li>
-</ul>
-<h3>Transfer of Your Personal Data</h3>
-<p>Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ from those from Your jurisdiction.</p>
-<p>Where required by applicable law, We will ensure that international transfers of Your Personal Data are subject to appropriate safeguards and supplementary measures where appropriate. The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p>
-<h3>Delete Your Personal Data</h3>
-<p>You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.</p>
-<p>Our Service may give You the ability to delete certain information about You from within the Service.</p>
-<p>You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any Personal Data that You have provided to Us.</p>
-<p>Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.</p>
-<h3>Disclosure of Your Personal Data</h3>
-<h4>Business Transactions</h4>
-<p>If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p>
-<h4>Law enforcement</h4>
-<p>Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p>
-<h4>Other legal requirements</h4>
-<p>The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p>
-<ul>
-<li>Comply with a legal obligation</li>
-<li>Protect and defend the rights or property of the Company</li>
-<li>Prevent or investigate possible wrongdoing in connection with the Service</li>
-<li>Protect the personal safety of Users of the Service or the public</li>
-<li>Protect against legal liability</li>
-</ul>
-<h3>Security of Your Personal Data</h3>
-<p>The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially reasonable means to protect Your Personal Data, We cannot guarantee its absolute security.</p>
-<h2>Children's Privacy</h2>
-<p>Our Service does not address anyone under the age of 16. We do not knowingly collect personally identifiable information from anyone under the age of 16. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 16 without verification of parental consent, We take steps to remove that information from Our servers.</p>
-<p>If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.</p>
-<h2>Links to Other Websites</h2>
-<p>Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.</p>
-<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
-<h2>Changes to this Privacy Policy</h2>
-<p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
-<p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
-<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-<h2>Contact Us</h2>
-<p>If you have any questions about this Privacy Policy, You can contact us:</p>
-<ul>
-<li>By email: performancespherelab@gmail.com</li>
-</ul>
-
-
+        This Privacy Policy describes how KineTracking collects, uses, stores, and protects information
+        when You use the Application. It also explains Your privacy rights and how You can control app permissions.
       </p>
+
+      <p>
+        By using KineTracking, You agree to the collection and use of information in accordance with this Privacy Policy.
+      </p>
+
+      <h2>Interpretation and Definitions</h2>
+
+      <h3>Interpretation</h3>
+      <p>
+        Words with initial capital letters have meanings defined under the following conditions.
+        The definitions have the same meaning whether they appear in singular or plural.
+      </p>
+
+      <h3>Definitions</h3>
+      <ul>
+        <li><p><strong>Application</strong> refers to KineTracking, the software program provided by the Company.</p></li>
+        <li><p><strong>Company</strong>, <strong>We</strong>, <strong>Us</strong>, or <strong>Our</strong> refers to Kine Tracking.</p></li>
+        <li><p><strong>Country</strong> refers to India.</p></li>
+        <li><p><strong>Device</strong> means any device that can access the Service, such as a phone, tablet, or computer.</p></li>
+        <li><p><strong>Personal Data</strong> means any information that relates to an identified or identifiable individual.</p></li>
+        <li><p><strong>Service</strong> refers to the Application.</p></li>
+        <li><p><strong>Usage Data</strong> refers to data collected automatically when using the Service.</p></li>
+        <li><p><strong>You</strong> means the individual accessing or using the Service.</p></li>
+      </ul>
+
+      <h2>Collecting and Using Your Information</h2>
+
+      <h3>Types of Data Collected</h3>
+
+      <h4>Usage Data</h4>
+      <p>
+        Usage Data may be collected automatically when using the Service. This may include information such as
+        Device type, operating system, app performance information, diagnostic data, crash information,
+        feature usage, and other technical information needed to maintain and improve the Application.
+      </p>
+
+      <p>
+        We use this information only for app functionality, reliability, troubleshooting, security,
+        and improvement of the Service.
+      </p>
+
+      <h4>Camera, Photo Library, Video Import and Processing</h4>
+      <p>
+        KineTracking may request access to Your camera, photos, or videos to provide movement tracking,
+        posture analysis, video import analysis, and performance review features.
+      </p>
+
+      <ul>
+        <li>Camera access is used for live movement tracking, Kine Motion analysis, Kine Gate setup, and Kine Posture analysis.</li>
+        <li>Videos are accessed only when You choose to import them.</li>
+        <li>Imported videos are processed locally on Your Device for movement, posture, and performance analysis.</li>
+        <li>We do not automatically upload imported videos to Our servers.</li>
+        <li>We do not share imported videos with third parties.</li>
+        <li>Exported videos, screenshots, and analysis results are stored on Your Device unless You choose to share them.</li>
+      </ul>
+
+      <p>
+        We do not use camera, photo, or video access for advertising, user profiling, or unrelated tracking.
+      </p>
+
+      <h4>Location Permission for Kine Gate</h4>
+      <p>
+        While using the Kine Gate feature, KineTracking may request location permission.
+        This permission is used only to help nearby devices connect for timing gate sessions,
+        including host and gate device discovery, Wi-Fi/local network setup, and timing communication between phones.
+      </p>
+
+      <ul>
+        <li>We do not use GPS/location permission to track Your real-world location.</li>
+        <li>We do not record, store, or upload Your GPS coordinates.</li>
+        <li>We do not use location data for advertising, marketing, analytics, or user profiling.</li>
+        <li>We do not access location in the background.</li>
+        <li>Location permission is used only while You are actively using the Kine Gate feature.</li>
+        <li>Local network details, such as device connection information or IP address, may be used temporarily to connect gate devices, but are not uploaded to Our servers.</li>
+      </ul>
+
+      <p>
+        On some Android versions, location permission may be required by the operating system for nearby Wi-Fi,
+        Bluetooth, or device discovery, even when the app does not use Your physical location.
+      </p>
+
+      <h4>Local Network and Device Connection Information</h4>
+      <p>
+        Kine Gate may use local network or nearby device connection information to allow phones or supported devices
+        to communicate during timing sessions. This information is used temporarily for connection setup and timing
+        communication and is not uploaded to Our servers.
+      </p>
+
+      <h3>Use of Your Information</h3>
+      <p>The Company may use information for the following purposes:</p>
+
+      <ul>
+        <li><p><strong>To provide and maintain the Service:</strong> including movement tracking, posture analysis, timing gate sessions, video analysis, export features, and app functionality.</p></li>
+        <li><p><strong>To operate Kine Gate:</strong> to allow nearby phones or devices to connect as host and gate devices for timing sessions. Location permission, nearby device access, or local network information is used only for connection setup and timing functionality, not for tracking Your physical location.</p></li>
+        <li><p><strong>To improve app performance:</strong> to identify errors, improve reliability, and enhance user experience.</p></li>
+        <li><p><strong>To provide support:</strong> to respond to Your questions, feedback, or support requests.</p></li>
+        <li><p><strong>To maintain security:</strong> to prevent misuse, troubleshoot technical issues, and protect the Service.</p></li>
+        <li><p><strong>To comply with legal obligations:</strong> when required by applicable law or valid legal process.</p></li>
+      </ul>
+
+      <h3>Sharing of Your Information</h3>
+      <p>
+        We do not sell Your Personal Data. We do not share Your camera data, videos, GPS location,
+        or timing gate connection data with advertisers.
+      </p>
+
+      <p>We may disclose information only in the following situations:</p>
+      <ul>
+        <li><strong>With Your consent:</strong> when You choose to share exported videos, screenshots, reports, or analysis results.</li>
+        <li><strong>For legal reasons:</strong> if required by law, court order, or valid request by public authorities.</li>
+        <li><strong>To protect rights and safety:</strong> if necessary to protect the rights, property, or safety of the Company, users, or the public.</li>
+        <li><strong>With service providers:</strong> only if needed for app operation, diagnostics, support, or infrastructure, and only under appropriate privacy obligations.</li>
+      </ul>
+
+      <h3>Storage and Retention</h3>
+      <p>
+        We retain Personal Data only for as long as necessary for the purposes described in this Privacy Policy,
+        unless a longer retention period is required by law.
+      </p>
+
+      <ul>
+        <li>
+          <p><strong>Videos, photos, screenshots, and analysis results:</strong> Stored locally on Your Device unless You choose to export or share them.</p>
+        </li>
+        <li>
+          <p><strong>Location Data:</strong> KineTracking does not store GPS coordinates or location history. Location permission is used only temporarily while using the Kine Gate feature and is not retained by the Company.</p>
+        </li>
+        <li>
+          <p><strong>Local network/device connection data:</strong> Used temporarily for Kine Gate connection setup and timing communication. This information is not uploaded to Our servers.</p>
+        </li>
+        <li>
+          <p><strong>Diagnostic or usage data:</strong> May be retained only as needed for troubleshooting, app improvement, security, or legal compliance.</p>
+        </li>
+      </ul>
+
+      <h3>Your Control Over Permissions</h3>
+      <p>
+        You can enable or disable camera, photo/video, nearby device, and location permissions at any time through Your Device settings.
+        Some app features may not work correctly if required permissions are disabled.
+      </p>
+
+      <h3>Delete Your Data</h3>
+      <p>
+        You may delete exported files, imported videos, screenshots, and analysis results from Your Device.
+        You may also contact Us to request deletion of any Personal Data that We may hold, subject to legal or technical limitations.
+      </p>
+
+      <h3>Security of Your Information</h3>
+      <p>
+        The security of Your information is important to Us. However, no method of electronic storage or transmission is 100% secure.
+        While We use reasonable measures to protect information, We cannot guarantee absolute security.
+      </p>
+
+      <h2>Children's Privacy</h2>
+      <p>
+        Our Service is not directed to anyone under the age of 16. We do not knowingly collect personally identifiable information
+        from anyone under the age of 16. If We become aware that We have collected such information without appropriate consent,
+        We will take steps to delete it.
+      </p>
+
+      <h2>Links to Other Websites</h2>
+      <p>
+        Our Service may contain links to websites not operated by Us. We are not responsible for the content,
+        privacy policies, or practices of third-party websites or services.
+      </p>
+
+      <h2>Changes to this Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. Changes are effective when posted on this page.
+        The “Last updated” date will be updated when changes are made.
+      </p>
+
+      <h2>Contact Us</h2>
+      <p>If You have any questions about this Privacy Policy, You can contact Us:</p>
+      <ul>
+        <li>By email: performancespherelab@gmail.com</li>
+      </ul>
     </div>
 
-    <div class="section">
+    <div class="section contact">
       <h2>Contact</h2>
       <p>Email: performancespherelab@gmail.com</p>
     </div>
